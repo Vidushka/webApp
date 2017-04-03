@@ -6,11 +6,14 @@
 </head>
 
 <body>
+<%--<h3>${logged_name}</h3>--%>
+<h3>${Warning}</h3>
 <form:form action="/login" method="post">
+    <br/>
     User Name: <input type="text" name="userName"/>
-    <br/>
+    <br/><br/>
     Password: <input type="password" name="password"/>
-    <br/>
+    <br/><br/>
     <input type="submit" value="Login"/>
 </form:form>
 </body>

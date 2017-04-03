@@ -6,5 +6,8 @@
 </head>
 <body>
 <h1>Invalid user name or password.</h1>
+<br><br>
+<a href="/login">Login</a>
+<a href="/login">Home</a>
 </body>
 </html>

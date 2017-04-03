@@ -5,6 +5,8 @@
     <title>My Web App</title>
 </head>
 <body>
-<h1>Hello User !!!</h1>
+<h1>Hello ${userName} !!!</h1>
+<a href="/login">Login</a>
+<a href="/logout">Logout</a>
 </body>
 </html>
