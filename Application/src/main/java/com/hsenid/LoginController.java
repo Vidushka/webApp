@@ -44,7 +44,6 @@ public class LoginController {
         return responsePage;
     }
 
-
     @RequestMapping(method = RequestMethod.GET)
     public void val() {
 
