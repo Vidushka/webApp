@@ -49,7 +49,7 @@ public class LoginController {
 
     }
 
-    /*@RequestMapping(value = "/logout")
+    @RequestMapping(value = "/logout")
     public String logout(Model model, HttpServletRequest req){
         if (req.getSession() != null){
             req.getSession().removeAttribute("userName");
@@ -58,5 +58,5 @@ public class LoginController {
 
         }
         return "login";
-    }*/
+    }
 }

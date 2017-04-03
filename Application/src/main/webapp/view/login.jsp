@@ -6,7 +6,7 @@
 </head>
 
 <body>
-<%--<h3>${logged_name}</h3>--%>
+<h3>${logged_name}</h3>
 <h3>${Warning}</h3>
 <form:form action="/login" method="post">
     <br/>
