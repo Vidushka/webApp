@@ -16,5 +16,7 @@
     <br/><br/>
     <input type="submit" value="Login"/>
 </form:form>
+<h4>${a}</h4>
+<h4>${b}</h4>
 </body>
 </html>
