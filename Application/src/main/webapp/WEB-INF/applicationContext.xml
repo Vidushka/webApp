@@ -3,7 +3,7 @@
        xmlns="http://www.springframework.org/schema/beans"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <!--
-        <bean id="loginController" class="com.hsenid.LoginController">
+        <bean id="loginController" class="com.hsenid.com.hsenid.LoginController">
             <property name="userService" ref="userService" />
         </bean>
 

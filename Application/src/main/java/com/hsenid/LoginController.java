@@ -31,7 +31,7 @@ public class LoginController {
         password = user.getPassword();
 
         if (request.getSession().getAttribute("User") == null) {
-            if (userService.validateUser(userName, password)) {
+            if (userService.checkUser(userName, password)) {
                 responsePage = "success";
                 session = request.getSession();
                 session.setAttribute("User", "ABC");
@@ -86,4 +86,5 @@ public class LoginController {
         }
         return "redirect:/login";
     }
+
 }
